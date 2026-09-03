@@ -4,26 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <script><script src="https://kit.fontawesome.com/3c4d79fef7.js" crossorigin="anonymous"></script>
-    </script>
+    <link rel="stylesheet" href="accents/css/estilo.css">
+    <script src="https://kit.fontawesome.com/bf21730263.js" crossorigin="anonymous"></script>
+    <title>Meu Site</title>
 </head>
+
 
 <body>
     <header>
         <div class="logo">J</div>
         <h1 class="titulo">Meu site de noticias</h1>
-        <div class="menu hamburguer"><i class="fa-solid fa-bars"></i>
+        <div class="menu-hamburguer">
+            <i class="fa-solid fa-bars"></i>
         </div>
     </header>
-    <section>
-        <nav>Menu Lateral</nav>
-        <main>
+
+    <section class="conteudo-principal">
+        <nav>
+            Menu Lateral            
+        </nav>
+        <main id="Noticias" class= "container">
+            <div class="grade-de-cartoes">
+
+            <!-- cartao 1-->
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/urbano.png" 
+                    alt="Cartão de transporte" >
+                 <!-- <section class="corpo-do-cartao"></section> -->
+
+                <section class="corpo-do-cartao">
+                    <h2>Mobilidade Urbana</h2>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Transporte</span>
+                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                    </p>
+                    <!--Botao-->  
+                    <button type="button" class="botao-ok">OK</button>                                       
+                    <p class="descricao-da-noticia">
+                        Prefeitura lança um novo plano de mobilidade urbana.
+                    </p>
+                    <p class="autor-da-noticia">Lucas Silva</p>
+
+                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                </section>
+            </div>
+
+            <!--Cartao 2-->
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/gastronomia.png" 
+                    alt="Evento Gastronomico"
+                >
+
+                <section class="corpo-do-cartao">
+                    <h2>Gastronomia em BH</h2>
+
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Gastronomia</span>
+                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                    </p>
+                    <!--Botao-->  
+                    <button type="button" class="botao-ok">OK</button>                                       
+
+                    <p class="descricao-da-noticia">
+                        Gastronomia mineira recebe prêmio internacional.
+                    </p>
+                    <p class="autor-da-noticia">Henrique Araujo</p>
+
+                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                </section>
+            </div>
+            <!--Cartao 3-->
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/tecnologia.png" 
+                    alt="Tecnologia 6G"
+                >
+
+                <section class="corpo-do-cartao">
+                    <h2>Tecnologia 6G</h2>
+
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Tecnologia</span>
+                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                    </p>
+                    <!--Botao-->  
+                    <button type="button" class="botao-ok">OK</button>                                       
+
+                    <p class="descricao-da-noticia">
+                       A tecnologia 6G é a proxima geração de redes móveis.
+                    </p>
+                    <p class="autor-da-noticia">Guilherme Azevedo</p>
+
+                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                </section>
+            </div>
+            <!--Cartao 4-->
+              <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/musica.png" 
+                    alt="Tecnologia 6G"
+                >
+
+                <section class="corpo-do-cartao">
+                    <h2>Festival de Música</h2>
+
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Cultura </span>
+                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                    </p>
+                    <!--Botao-->  
+                    <button type="button" class="botao-ok">OK</button>                                       
+
+                    <p class="descricao-da-noticia">
+                       O Lollapalooza é um dos maiores festivais de música alternativa e cultural do mundo, 
+                       reunindo múltiplos palcos com ícones do pop, rock, eletrônica e urbano.
+                    </p>
+                    <p class="autor-da-noticia">Weslley Henrique</p>
+
+                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                </section>
+            </div>
+
+        </div>
         </main>
     </section>
-    <footer>
-        &copy, Meu site, 2026 🤦</footer>
+ <footer>&Copy oi</footer>
 </body>
-
 </html>

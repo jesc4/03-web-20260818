@@ -1,0 +1,45 @@
+@import url("cabecalho.css");
+@import url("cartao.css");
+@import url("corpo.css");
+@import url("rodape.css");
+
+
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    border: 0.3rem solid rgb(197, 197, 197);
+    display: flex;
+    padding: 1rem;
+    flex: 1;
+    /* width: 35rem; */
+    /* box-shadow: 0.5rem 0.1rem 0.3rem; */
+    /* margin-top: 0; */
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+}
+
+img {
+    /* width: 40rem; */
+    /* height: 20rem; */
+}
+
+
+.grade-de-cartoes{
+    display:flex; 
+    flex-wrap: wrap; /*passa pra linha de baixo se n couber*/
+    gap: 1.5rem; /*o espaço entre os cartoes*/
+    justify-content: flex-start;
+}

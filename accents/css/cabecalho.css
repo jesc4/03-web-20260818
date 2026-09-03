@@ -1,0 +1,58 @@
+header {
+    height: 4rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    background-color: rgb(23, 24, 24);
+    color: #ccc;
+    align-content: center;
+}
+
+.logo {
+    border: 0.1rem solid rgb(134, 47, 180);
+    background-color: rgb(121, 4, 216);
+    width: 2rem;
+    height: 2rem;
+    /* padding: 0.7rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #eee;
+    font-weight: bold;
+    margin-right: 0.7rem;
+    padding: .7rem;
+    align-content: center;
+    margin-right:.7rem ;
+}
+
+
+.titulo {
+    margin: 0;
+    flex: 1;
+}
+
+.menu-hamburguer{
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    align-content:center ;
+    background-color: #464646;
+}
+
+.menu-hamburguer i{
+    font-size: 1.2rem;
+    color: #7a7777;
+}
+
+.menu-hamburguer:hover  {
+    color: #ff0404;
+}
+
+.menu-hamburguer :hover{
+    color: rgb(16, 255, 7);
+}

@@ -1,0 +1,8 @@
+footer {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #0f0f14;
+    color: #9CA3AF;
+    justify-content: flex-start;
+    /* border: .1rem solid red; */
+}

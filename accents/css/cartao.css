@@ -1,0 +1,85 @@
+.cartao {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 17rem;
+    box-shadow: 0 0.2rem 0.5rem #eee;
+    margin-top: 0;
+}
+
+.imagem-do-cartao {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    /* max-width: 100%; */
+    border-radius: 0.3rem;
+    /* margin-top: 0; */
+    width: 100%;
+    
+}
+
+.corpo-do-cartao {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* justify-content: space-between; */
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+
+}
+
+.titulo-do-cartao {
+    font-size: 1.1rem;
+    font-weight: bold;
+    /* margin: 0.5rem; */
+}
+
+.classificacao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+}
+
+.categoria-da-noticia {
+    color: green;
+    font-weight: bold;
+}
+
+.data-da-noticia {
+    color: red;
+}
+
+.descricao-da-noticia {
+    /* margin-bottom: 0.5rem; */
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.autor-da-noticia {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.botao-ok {
+    align-self: stretch;
+    padding: 0.3rem 0.8rem;
+    background-color: #1100fc;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer; /* Transforma o ponteiro do mouse em uma mãozinha */
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Cor ao passar o mouse por cima */
+.botao-ok:hover {
+    background-color: #0e7cd6;
+}
+
+/* Efeito de afundar ligeiramente ao clicar */
+.botao-ok:active {
+    transform: scale(0.98);
+}
